@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Navigation" />
+        <item
+            android:id="@+id/nav_home"
+            android:onClick="makeTitle"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:onClick="makeTitle"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="My account" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:onClick="makeTitle"
+            android:icon="@drawable/ic_baseline_featured_play_list_24"
+            android:title="My orders" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Examples" />
+        <item
+            android:id="@+id/shoping_cart"
+            android:onClick="makeTitle"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/my_favorites"
+            android:onClick="makeTitle"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:title="@string/menu_gallery" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Material Driwer" />
+
+        <item
+            android:id="@+id/home_one"
+            android:onClick="makeTitle"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/my_account"
+            android:onClick="makeTitle"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/my_orders"
+            android:onClick="makeTitle"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+    </group>
+</menu>
